@@ -87,6 +87,10 @@ color: var(--button-font-color);
 	background-color: var(--modal-background-color);
 }
 
+article{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
 
 /*--------------------------------------------------------------------------------------------------- Navbar */
 
@@ -109,6 +113,18 @@ nav{
 
 .navbar-dark .navbar-nav .nav-link {
     color: var(--default-text-color);
+}
+
+#about-drop{
+	background-color: var(--header-nav-color);
+}
+.about-drop-text{
+	color: var(--default-text-color);
+	border: 2px solid var(--button-color);
+}
+.about-drop-text:hover{
+	background-color: var(--button-color);
+	color: var(--default-text-color);
 }
 
 /*--------------------------------------------------------------------------------------------------- home title */
@@ -225,32 +241,20 @@ nav{
 
 
 #richie-photo{
-	width: 80%;
+	width: 100%;
+	border: 2px solid white;
 }
-
-#richie-photo-b{
-	width: 80%;
-}
-
-
-
 
 
 #cafe-photo{
-	width: 80%;
+	width: 100%;
+	border: 2px solid white;
 }
 
-#cafe-photo-b{
-	width: 80%;
-}
-#cafe-photo-c{
-	width: 80%;
-}
+
 #ingredients-photo{
-	width: 80%;
-}
-#ingredients-photo-b{
-	width: 80%;
+	width: 100%;
+	border: 2px solid white;
 }
 
 #terms{
@@ -305,6 +309,7 @@ nav{
 	border: 2px solid var(--button-color);
 	font-size: 120%;
 	}
+	
 /*--------------------------------------------------------------------------------------------------- order page*/
 #order-title{
 	color: var(--order-title-color);
