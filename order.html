@@ -36,13 +36,21 @@
                         <li class="nav-item ml-auto active mr-2">
                             <a class="nav-link" href="order.html">Order/Enquire</a>
                         </li>
-                        <li class="nav-item ml-auto mr-2">
-                            <a class="nav-link" href="about.html">About Us</a>
+                        <li class="nav-item ml-auto mr-2 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About us
+                            </a>
+                            <div class="dropdown-menu" id="about-drop" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item about-drop-text" href="who.html">Who are we?</a>
+                                <a class="dropdown-item about-drop-text" href="what.html">What do we do?</a>
+                                <a class="dropdown-item about-drop-text" href="why.html">Why choose us?</a>
+                            </div>
                         </li>
-						<li class="nav-item ml-auto mr-2">
+                        <li class="nav-item ml-auto mr-2">
                             <a class="nav-link" href="gallery.html">Galleries</a>
                         </li>
-                        
+
                     </ul>
                 </div>
             </nav>
@@ -93,16 +101,19 @@
 
         <div class="row">
             <div class="col-12 col-lg-8">
-                <form action="index.html" method="post"> <!-- the action is set to index.html only as an example as form is not connected to real server"-->
+                <form action="index.html" method="post">
+                    <!-- the action is set to index.html only as an example as form is not connected to real server"-->
                     <div class="form-row">
                         <div class="col-md-6 col-lg-12">
                             <div class="form-group">
                                 <label for="name-input">Name</label>
-                                <input type="name" class="form-control" id="name-input" placeholder="full name" required>
+                                <input type="name" class="form-control" id="name-input" placeholder="full name"
+                                    required>
                             </div>
                             <div class="form-group">
                                 <label for="email-input">Email address</label>
-                                <input type="tel" class="form-control" name="email" id="email-input" placeholder="name@example.com" required>
+                                <input type="tel" class="form-control" name="email" id="email-input"
+                                    placeholder="name@example.com" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone-input">Phone Number(0ptional)</label>
@@ -174,7 +185,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12, col-md-4 footer-social-div">
-                    <h2>social</h2>
+                    <h2>Social</h2>
                     <div class="social-icons"><a href="https://www.facebook.com" target="_blank"><i
                                 class="fa fa-facebook-square" aria-hidden="true"></i><span class="hidden-sm">
                                 Facebook</span></a></div>
@@ -189,7 +200,7 @@
                                 Twitter</span></a></div>
                 </div>
                 <div class="col-sm-12, col-md-4 footer-info-div">
-                    <h2>info</h2>
+                    <h2>Info</h2>
                     <p>Address: Clogga Road, Kish Business Park, Arklow, Co. Wicklow, Y14 FX01 </p>
                     <p>Phone Number: 05394555555 </p>
                     <p>Cafe Opening Hours: 9pm - 7am </p>
