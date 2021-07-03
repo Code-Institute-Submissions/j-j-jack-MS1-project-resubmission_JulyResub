@@ -108,8 +108,8 @@ nav{
 }
 .navbar-logo{  /* media queries may be necessary for extremely low screen sizes */
 	position: fixed;
-	z-index: 1031; /*bootstrap fixed z-index is 1030 */
 	height: 11%;
+	z-index: 1031; /*bootstrap fixed z-index is 1030 */
 	top: 2%;
 	max-width: 40%;
 }
