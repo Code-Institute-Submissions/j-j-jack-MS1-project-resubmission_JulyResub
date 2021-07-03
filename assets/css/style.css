@@ -37,6 +37,8 @@ body{
 	background: url("../images/background-1.jpg");
 	background-size: cover;
 	background-color: var(--background-color);
+	padding-right: 0;
+	overflow-x: hidden;
 	
 }
 
@@ -82,6 +84,8 @@ color: var(--button-font-color);
 
 .page-content{
 	padding-top: 20vh;
+	max-width: 90%;
+	overflow: hidden;
 	}
 	
 .modal-color{
@@ -198,11 +202,11 @@ nav{
 @keyframes glow {
   from {
     fill: var(--glow-color-1);
-	stroke: red;
+	color: var(--glow-color-1);
   }
   to {
     fill: var(--glow-color-2);
-	stroke: yellow;
+	color: var(--glow-color-2);
   }
 }
 
