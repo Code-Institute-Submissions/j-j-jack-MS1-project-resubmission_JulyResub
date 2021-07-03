@@ -458,8 +458,28 @@ footer h2{
 }
 }
 
+/*--------------------modal fullscreen code -----------------------------*/
+/* -------------------code from andreivictor on stackoverflow.com
+https://stackoverflow.com/questions/18432394/how-to-make-twitter-bootstrap-modal-full-screen#:~:text=If%20you%20want%20to%20use,for%20screens%20smaller%20than%201200px%20.
+*/
 
-
+.modal {
+  padding: 0 !important; 
+}
+.modal .modal-dialog {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+}
+.modal .modal-content {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+.modal .modal-body {
+  overflow-y: auto;
+}
 
 
 
