@@ -284,7 +284,19 @@ nav{
 	text-align: center;
 }
 
-
+.about-arrows-container{
+	margin-top: 5vh;
+	display: flex;
+}
+.about-arrows-1{
+	flex: 1;
+}
+.about-arrows-2{
+	flex: 2;
+}
+.about-arrows-3{
+	flex: 1;
+}
 
   
  
