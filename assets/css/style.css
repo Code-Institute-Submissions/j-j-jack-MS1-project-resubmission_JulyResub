@@ -24,6 +24,7 @@
 	--titles-color: rgb(121, 252, 158);
 	--modal-background-color: rgb(40, 40, 40);
 	--backboard: black;
+	--highlighted-tab-color: rgb(164 ,20 , 183);
 } 
 /*--------------------------------------------------------------------------------------------------- colours */
 
@@ -55,6 +56,7 @@ body{
 }
 .active{
 	text-decoration: underline;
+	background-color: var(--highlighted-tab-color)
 }
 
 .site-buttons{

@@ -5,11 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Late night cakes</title>
+    <!--Bootstrap cdn-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--font-awesome cdn provide by bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--iconify script -->
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 
 </head>
@@ -18,11 +21,11 @@
     <header>
 
 
-
+        <!--using container fluid for the navbar so it is the full width of screen-->
         <div class="container-fluid">
+            <!--using the navbar component from bootstrap-->
             <nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color navbar-dark">
-
-
+                <!--using the navbar collapse for smaller screens documented in the bootstrap components-->
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navToggle"
                     aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,6 +33,7 @@
 
                 <div class="collapse navbar-collapse" id="navToggle">
                     <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <!--The list items are seen by bootstrap to be collapsable due to the nav-item class-->
                         <li class="nav-item active ml-auto mr-2">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
@@ -41,6 +45,9 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 About us
                             </a>
+                            <!--dropdown menu component from bootstrap. The dropdown toggle and dropdown
+                            menu classes are used so that bootstrap knows which items to place in the 
+                            dropdown and which item toggles the dropdown menu open and closed -->
                             <div class="dropdown-menu" id="about-drop" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item about-drop-text" href="who.html">Who are we?</a>
                                 <a class="dropdown-item about-drop-text" href="what.html">What do we do?</a>
