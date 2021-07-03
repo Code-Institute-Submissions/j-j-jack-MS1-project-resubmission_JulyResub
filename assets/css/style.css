@@ -104,7 +104,8 @@ nav{
 	position: fixed;
 	z-index: 1031; /*bootstrap fixed z-index is 1030 */
 	height: 11%;
-	top: 2%
+	top: 2%;
+	max-width: 40%;
 }
 #nav-phone{
 	color: var(--nav-phone-color);
@@ -414,6 +415,9 @@ footer h2{
 .hidden-md-down{
 	visibility: hidden;
 	display: none;
+}
+.nav-bar-logo{
+	max-width: 80%;
 }
 }
 
