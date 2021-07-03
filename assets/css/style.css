@@ -361,6 +361,9 @@ footer h2{
 	
 @media only screen and (max-width: 767px) {
 
+#home-title{
+	font-size: 350%;
+}
 .hidden-sm-down{
 	visibility: hidden;
 	display: none;
