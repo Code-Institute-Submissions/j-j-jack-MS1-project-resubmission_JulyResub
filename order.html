@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- the navbar and other components that are common to all pages are commented
+    in the index.html file. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +22,6 @@
 
         <div class="container-fluid">
             <nav class="navbar navbar-expand-md fixed-top p-5 mr-auto nav-bg-color navbar-dark">
-
 
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navToggle"
                     aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,6 +82,7 @@
                         <th>Price per cupcake</th>
                     </tr>
                     <tr>
+                        <!-- escape character for < sign-->
                         <td>&lt;50</td>
                         <td>€3.20</td>
                     </tr>
@@ -110,10 +111,13 @@
                 <form action="index.html" method="post">
                     <!-- the action is set to index.html only as an example as form is not connected to real server"-->
                     <div class="form-row">
+                        <!-- form uses classes provided in bootstrap for easy styling-->
                         <div class="col-md-6 col-lg-12">
                             <div class="form-group">
                                 <label for="name-input">Name</label>
                                 <input type="text" class="form-control" id="name-input" required>
+                                <!-- the name and email address are required to submit the form but the phone
+                                    number is not -->
                             </div>
                             <div class="form-group">
                                 <label for="email-input">Email address</label>

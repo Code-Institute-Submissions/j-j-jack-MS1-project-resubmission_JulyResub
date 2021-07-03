@@ -61,7 +61,7 @@
                 </div>
             </nav>
         </div>
-
+        <!--the company's logo is placed in the navbar-->
         <a href="index.html">
             <figure>
                 <img src="assets/images/late-night-cakes.svg" 
@@ -79,7 +79,6 @@
                     <h1 id="home-title">
                     Late night cakes
                     </h1>
-                    
                 </div>
                 <div class="col-12">
                     <h2 id="slogan"> Baked in the dark, to brighten up your day</h2>
@@ -87,9 +86,23 @@
                         also run a nocturnal cafe </h4>
                     <div class="text-center">
                         <form action="order.html">
-                            <button type="submit" class="btn btn-lg mr-auto site-buttons"><span
-                                    class="button-text">Order now
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024"><path class= 'glow' d="M512 640q-139 0-257-34.5T68.5 512T0 384q0-80 89-144.5T322 146q7 74 61.5 124T512 320t128.5-50T702 146q144 29 233 93.5t89 144.5q0 69-68.5 128T769 605.5T512 640zm0-384q-53 0-90.5-37.5T384 128t37.5-90.5T512 0t90.5 37.5T640 128t-37.5 90.5T512 256zM220 979q-92-36-92-83L64 576q53 53 130 84zm39-298q56 14 125 20v316q-52-7-98-18zm317 22v319q-34 2-64 2t-64-2V703q25 1 64 1q40 0 64-1zm162 296q-46 11-98 18V701q69-6 125-20zm222-423l-64 320q0 47-92 83l26-319q77-31 130-84z" fill="#626262"/></svg></span></button>
+                            <!-- the site buttons use th form and action method to navigate the 
+                                user to internal links so not to interfere with the bootstrap buttons
+                                styling -->
+                            <button type="submit" class="btn btn-lg mr-auto site-buttons">
+                                <span class="button-text">Order now
+                                    <!-- svg path contains glow class which in the css causes fill to alternate colors-->
+                                <svg xmlns="http://www.w3.org/2000/svg" 
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" 
+                                    focusable="false" width="1em" height="1em" 
+                                    style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" 
+                                    preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024">
+                                    <path class= 'glow' d="M512 640q-139 0-257-34.5T68.5 512T0 384q0-80 89-144.5T322 146q7 74 61.5 124T512 320t128.5-50T702 146q144 29 233 93.5t89 144.5q0 69-68.5 128T769 605.5T512 640zm0-384q-53 0-90.5-37.5T384 128t37.5-90.5T512 0t90.5 37.5T640 128t-37.5 90.5T512 256zM220 979q-92-36-92-83L64 576q53 53 130 84zm39-298q56 14 125 20v316q-52-7-98-18zm317 22v319q-34 2-64 2t-64-2V703q25 1 64 1q40 0 64-1zm162 296q-46 11-98 18V701q69-6 125-20zm222-423l-64 320q0 47-92 83l26-319q77-31 130-84z" 
+                                    fill="#626262"/>
+                                    <!-- the icon is taken from iconify.design-->
+                                </svg>
+                                </span>
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -109,6 +122,7 @@
                         function - drop by between 9 and 10am Monday to Saturday for cupcake tasters. </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1 col-10 offset-1">
+                    <!-- google map which shows cafe location -->
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9654.756854534658!2d-6.18783475917808!3d52.77387912780729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867c3b9c23d0afd%3A0xabaf7710677405df!2sKish%20Business%20Park%2C%20Oakdale%2C%20Co.%20Wicklow!5e0!3m2!1sen!2sie!4v1618135289375!5m2!1sen!2sie"
                         allowfullscreen="" loading="lazy"> </iframe>
@@ -122,6 +136,7 @@
             <div class="row">
                 <div class="col-sm-12, col-md-4 footer-social-div">
                     <h2>Social</h2>
+                    <!-- social icons using the font awesome social media icons-->
                     <div class="social-icons"><a href="https://www.facebook.com" target="_blank" rel='noreferrer'><i
                                 class="fa fa-facebook-square" aria-hidden="true"></i><span class="hidden-sm">
                                 Facebook</span></a></div>
@@ -136,6 +151,7 @@
                                 Twitter</span></a></div>
                 </div>
                 <div class="col-sm-12, col-md-4 footer-info-div">
+                    <!-- imagined location of the business -->
                     <h2>Info</h2>
                     <p>Address: Clogga Road, Kish Business Park, Arklow, Co. Wicklow, Y14 FX01 </p>
                     <p>Phone Number: 05394555555 </p>
@@ -145,6 +161,7 @@
                 </div>
                 <div class="col-sm-12, col-md-4 footer-award-div">
                     <h2>Awards</h2>
+                    <!-- imagined awards that the business has won. IQFS does not exist-->
                     <p> IQFS Winner - Small Cakes 2020 - Chocolate Stout Cupcake </p>
                     <p> IQFS Highly Commended - Small Cakes 2019 Coconut Lime Cupcake </p>
                     <p> IQFS Winner - Small Cakes 2018 - Raw Vegan Lemon Dream Cupcake </p>
@@ -157,6 +174,7 @@
     </footer>
 
 
+    <!-- scripts required for bootstrap components to work-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
