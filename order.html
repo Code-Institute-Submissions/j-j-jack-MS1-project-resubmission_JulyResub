@@ -56,14 +56,13 @@
             </nav>
         </div>
 
-        <a href="index.html">
-            <figure>
+        <figure>
+            <a href="index.html">
                 <img src="assets/images/late-night-cakes.svg" 
                     alt="late night cakes company logo"
                     class="navbar-logo">
-            <figure>
-        </a>
-
+            </a>
+        </figure>
     </header>
 
     <div class="container-xl page-content">
@@ -117,7 +116,7 @@
                                 <label for="name-input">Name</label>
                                 <input type="text" class="form-control" id="name-input" required>
                                 <!-- the name and email address are required to submit the form but the phone
-                                    number is not -->
+                                    number is not-->
                             </div>
                             <div class="form-group">
                                 <label for="email-input">Email address</label>
@@ -151,6 +150,11 @@
                     </div>
                 </form>
             </div>
+            <!-- this code is repeated to ensure the positioning follows the projects wireframes
+                The hidden-md-class hides the code from the medium breakpoint and down by changing
+                the display value to none. This acts in tandem with the hidden-md-up class which
+                changes the replication of the pricing information above display value to block. So
+                only one is shown as is required. -->
             <div class="col-4 hidden-md-down">
                 <h3 class="title-color">Pricing information</h3>
                 <p> pricing for cupcakes are as follows: </p><br>
