@@ -112,13 +112,13 @@ article{
 	background-color: var(--header-nav-color);
 }
 nav{
-    height: 15%;
+    height: 10%;
 }
 .navbar-logo{  
 	position: fixed;
 	height: 11%;
 	z-index: 1031; /*bootstrap fixed z-index is 1030 */
-	top: 2%;
+	top: 0;
 	max-width: 40%; /* prevents logo from covering other items in menu */
 }
 #nav-phone{
